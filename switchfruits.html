@@ -1,0 +1,19 @@
+<script>
+    const fruit = 'watermelon';
+ 
+ switch (fruit) {
+   case 'Mandarins':
+     console.log('Mandarins are $2.59 a pound.');
+     break;
+   case 'cantaloupes':
+     console.log('cantaloupes are $5.29 a pound.');
+     break;
+   case 'watermelon':
+     console.log('cantaloupes and watermelons are $3.79 a pound.');
+     // expected output: "cantaloupes and watermelons are $3.79 a pound."
+     break;
+   default:
+     // If not cases are matched, then execute the following code
+     console.log(`Sorry, we are out of ${fruit}.`);
+ }
+</script>

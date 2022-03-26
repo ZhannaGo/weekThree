@@ -1,0 +1,11 @@
+<script>
+
+function greetings(name, age){
+    const message = `Hello, ${name}! Happy ${age}th birthday!`
+    return message
+}
+//right way
+console.log(greetings('Dr. Falken', 42))
+//wrong way
+console.log(greetings(42, 'Dr. Falken')) //Hello 42! Happy Dr. Falkenth birthday!
+</script>

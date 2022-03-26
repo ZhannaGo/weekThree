@@ -1,0 +1,15 @@
+<script>
+
+const bankInfo = {
+    name: 'ING',
+    address: '79 Strasse',
+    city: 'Amsterdam',
+    country: 'Europe'
+}
+console.log(bankInfo['name']) //the key name is ING
+ 
+// use `in` within a conditional
+if('address' in bankInfo){
+    console.log('result: ', bankInfo['address'])
+}
+</script>
